@@ -1,0 +1,78 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ff5e96;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #fff;
+    font-size: 28px;
+  }
+  
+  .click-button, .reset-button, .countdown-button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .click-button {
+    background-color: #ff4081;
+    color: white;
+  }
+  
+  .reset-button {
+    background-color: #ff5252;
+    color: white;
+  }
+  
+  .countdown-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .click-button:hover, .reset-button:hover, .countdown-button:hover {
+    transform: translateY(-3px);
+  }
+  
+  input {
+    font-size: 24px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid #ff5e96;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #ff4081;
+  }
+  
+  .timer {
+    font-size: 32px;
+    margin: 20px 0;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
